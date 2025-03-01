@@ -3,6 +3,7 @@ from odoo import http
 from odoo.http import request
 import json
 import logging
+from .ai_service import DiscountAI
 
 _logger = logging.getLogger(__name__)
 
