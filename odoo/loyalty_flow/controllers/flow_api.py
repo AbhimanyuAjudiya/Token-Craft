@@ -75,3 +75,21 @@ class FlowAPIController(http.Controller):
             
         except Exception as e:
             return {"error": str(e)}, 500
+        
+@http.route('/api/predict-discount', type='json', auth='public', methods=['POST'])
+def predict_discount(self, **kwargs):
+    try:
+        data = json.loads(request.httprequest.data)
+        purchases = data.get('purchases')
+        
+        ai_service = DiscountAI()
+        result = ai_service.predict_discount(purchases)
+        
+        return {
+            "status": "success",
+            "discount": result
+        }
+        
+    except Exception as e:
+        _logger.error(f"AI Route Error: {str(e)}")
+        return {"error": str(e)}
