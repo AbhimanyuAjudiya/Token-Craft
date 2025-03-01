@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Lexend:wght@300;400;500;600;700&display=swap');
+
+/* Container to align Hero text & Reward cards */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F6F2FD;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Hero text styles */
+.hero-content {
+  text-align: left;
+}
+
+.hero-greeting {
+  font-size: 50px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+.hero-heading {
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: -40px;
+  margin-left: 20px;
+}
+
+.hero-name {
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+/* Reward Cards Wrapper */
+.reward-cards {
+  display: flex;
+  gap: 20px; /* Space between both cards */
+}
+
+/* Reward card styles */
+.reward-card {
+  background: white;
+  border: 2px solid #714B67;
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 200px;
+  text-align: left;
+  position: relative;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Reward text */
+.reward-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+/* Reward amount styling */
+.reward-amount {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 60px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Small decimal */
+.small-decimal {
+    font-size: 20px;
+    margin-left: 2px;
+    align-self: flex-end;
+}
+
+/* Corner Image */
+.corner-img {
+  position: absolute;
+  top: -70px;
+  right: -100px;
+  width: 200px;
+}
