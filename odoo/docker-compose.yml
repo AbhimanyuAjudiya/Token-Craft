@@ -8,7 +8,7 @@ services:
     ports:
       - "8069:8069"
     volumes:
-      - ./odoo/loyalty_flow:/mnt/extra-addons/loyalty_flow
+      - ./custom_modules:/mnt/extra-addons
     environment:
       - HOST=db
       - USER=odoo
