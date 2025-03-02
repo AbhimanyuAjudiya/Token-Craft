@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="assets" inherit_id="point_of_sale.assets">
+    <xpath expr="." position="inside">
+      <script type="text/javascript" src="/loyalty_flow/static/src/js/pos_flow_tokens.js"></script>
+    </xpath>
+  </template>
+
+  <!-- POS Interface for Flow Tokens -->
+  <t t-name="LoyaltyFlowPosInterface" t-inherit="point_of_sale.OrderWidget" t-inherit-mode="extension">
+    <xpath expr="//div[@class='order-info']" position="after">
+      <div class="flow-token-info">
+        <span>Flow Tokens: </span>
+        <span t-esc="order.get_flow_tokens()"/>
+      </div>
+    </xpath>
+  </t>
+</odoo>

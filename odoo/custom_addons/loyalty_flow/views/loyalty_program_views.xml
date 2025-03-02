@@ -1,0 +1,14 @@
+<odoo>
+    <record id="view_loyalty_program_form_inherit_flow" model="ir.ui.view">
+        <field name="name">loyalty.program.form.flow</field>
+        <field name="model">loyalty.program</field>
+        <field name="inherit_id" ref="loyalty_program.view_loyalty_program_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='rule_ids']" position="after">
+                <field name="allow_flow"/>
+                <field name="flow_points"/>
+                <field name="flow_tier_ids"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

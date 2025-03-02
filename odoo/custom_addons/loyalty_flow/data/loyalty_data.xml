@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="program_flow_demo" model="loyalty.program">
+    <field name="name">Flow Token Program</field>
+    <field name="program_type">loyalty</field>
+    <field name="allow_flow">True</field>
+    <field name="flow_tier_ids" eval="[(0, 0, {
+      'flow_points_required': 50,
+      'discount_percent': 5
+    }), (0, 0, {
+      'flow_points_required': 100,
+      'discount_percent': 10
+    })]"/>
+  </record>
+</odoo>
