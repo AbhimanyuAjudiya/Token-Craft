@@ -1,6 +1,6 @@
 # 🚀 Loyalty Flow - Next-Gen Loyalty Program for Odoo POS
 
-[![Odoo 17](https://img.shields.io/badge/Odoo-17-%23FF5722?logo=odoo)](https://www.odoo.com)
+[![Odoo 18](https://img.shields.io/badge/Odoo-18-%23FF5722?logo=odoo)](https://www.odoo.com)
 [![Docker](https://img.shields.io/badge/Docker-✓-2496ED?logo=docker)](https://www.docker.com)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -109,7 +109,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-Made with ❤️ during the [Hackathon Name]. Let’s make loyalty exciting again! 🚀
+Made with ❤️ during the OdooXCharusat. Let’s make loyalty exciting again! 🚀
 
 
 ---
@@ -119,5 +119,3 @@ Made with ❤️ during the [Hackathon Name]. Let’s make loyalty exciting agai
 - **Clear Sections**: Demo, installation, usage, and tech stack are separated for clarity.
 - **Call to Action**: Contribution guidelines and acknowledgements encourage community involvement.
 - **Mobile-Friendly**: Markdown formatting works well on all devices.
-
-**Tip**: Add screenshots of the POS interface and dashboard under the `Demo` section for extra polish! 📸
